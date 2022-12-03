@@ -17,3 +17,21 @@ body {
 .info-text h1{
     font-family: 'Roboto Mono';
 }
+
+.card {
+    border: 1px solid #135d30;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
