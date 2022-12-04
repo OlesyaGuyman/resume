@@ -8,20 +8,52 @@ body {
     background: #f1f1f1;
 }
 
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0 , 0, 0.20);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
 .info-text p{
     font-style: italic;
     font-weight: bold;
     color: #86898f;
+    margin: 0;
 }
 
 .info-text h1{
     font-family: 'Roboto Mono';
 }
 
+.info-text h4 {
+    margin-bottom: 10px;
+
+}
+
 .card {
     border: 1px solid #135d30;
     border-radius: 12px;
-    margin-top: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono' ;
+}
+
+.card-soc {
+    margin: 24px;
 }
 
 .bg-yellow {
