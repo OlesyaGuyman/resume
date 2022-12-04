@@ -35,9 +35,14 @@ body {
     font-family: 'Roboto Mono';
 }
 
-.info-text h4 {
-    margin-bottom: 10px;
+.info h4 {
+    margin-bottom: 8px;
+    font-family: 'Roboto Mono';
+}
 
+.info a {
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .card {
@@ -48,8 +53,9 @@ body {
 }
 
 .card h2 {
-    margin-bottom: 10px;
-    font-family: 'Roboto Mono' ;
+    margin-bottom: 8px;
+    font-family: 'Roboto Mono';
+    margin-top: 8px;
 }
 
 .card-soc {
