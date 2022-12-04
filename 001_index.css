@@ -8,6 +8,24 @@ body {
     background: #f1f1f1;
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:active {
+    color: blue;
+}
+
+
 .container {
     max-width: 750px;
     margin: auto;
@@ -72,4 +90,17 @@ body {
 
 .bg-green {
     background: #e5ffe7;
+}
+
+.btn {
+    color: #fff;
+    background:  #3a5ad7;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background:  #122a88;
 }
