@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: blue;
+    color: #4d7acd;
     text-decoration: none;
 }
 
@@ -17,12 +17,12 @@ a:hover {
     text-decoration: underline;
 }
 
-a:visited {
+/* a:visited {
     color: gray;
-}
+} */
 
 a:active {
-    color: blue;
+    color: #be4dcd;
 }
 
 
@@ -103,4 +103,38 @@ a:active {
 
 .btn:hover {
     background:  #122a88;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #6f7278;
+    margin-bottom: 8px;
+    
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+    width: 300px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 8px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #6f7278;
 }
