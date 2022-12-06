@@ -33,13 +33,22 @@ a:active {
 }
 
 .avatar {
-    width: 200px;
+    width: 30%;
+    height: 10%;
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0, 0 , 0, 0.20);
+    display: block;
+    margin-top: 16px;
+    
 }
 
 .info {
     margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 44px;
 }
 
 .info-text p{
@@ -137,4 +146,39 @@ a:active {
 
 .table td:nth-child(2), .table td:nth-child(3) {
     color: #6f7278;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 12px;
+    margin-right: 24px;
+    width: 46%;
+}
+
+.form-row .form-group {
+    display: flex;
+}
+
+
+.form-group label {
+    /* display: inliblock; */
+    font-size: 14px;
+    color: #000000;
+    margin-top: 18px;
+    width: 50%;
+    padding-right: 18px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 0 12px;
+    outline: none;
+    font-family: inherit;
 }
