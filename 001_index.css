@@ -40,16 +40,16 @@ a:active {
     
 }
 
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
 @media (max-width: 650px) {
     .info {
         display: block;
         text-align: center;
     }
-}
-
-.info {
-    margin-bottom: 20px;
-    display: flex;
 }
 
 .info-text {
@@ -113,7 +113,7 @@ a:active {
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    margin-top: 44px;
+    margin: 44px;
 }
 
 .btn:hover {
