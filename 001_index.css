@@ -33,13 +33,18 @@ a:active {
 }
 
 .avatar {
-    width: 30%;
-    height: 10%;
+    width: 40%;
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0, 0 , 0, 0.20);
-    display: block;
-    margin-top: 16px;
+    /* margin-top: 16px; */
     
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
 }
 
 .info {
@@ -108,6 +113,7 @@ a:active {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    margin-top: 44px;
 }
 
 .btn:hover {
@@ -164,7 +170,7 @@ a:active {
 
 
 .form-group label {
-    /* display: inliblock; */
+    display: inliblock;
     font-size: 14px;
     color: #000000;
     margin-top: 18px;
@@ -172,13 +178,22 @@ a:active {
     padding-right: 18px;
 }
 
-.form-group input, .form-group textarea {
+.form-group input {
     width: 100%;
     box-sizing: border-box;
     border: none;
     background: transparent;
     border-bottom: 1px solid #ccc;
     padding: 16px 0 12px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: transparent;
     outline: none;
     font-family: inherit;
 }
