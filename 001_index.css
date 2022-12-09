@@ -45,12 +45,6 @@ a:active {
     display: flex;
 }
 
-@media (max-width: 650px) {
-    .info {
-        display: block;
-        text-align: center;
-    }
-}
 
 .info-text {
     margin-left: 44px;
@@ -75,6 +69,13 @@ a:active {
 .info a {
     margin-left: 16px;
     margin-right: 16px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
 }
 
 .card {
