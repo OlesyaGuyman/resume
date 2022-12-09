@@ -159,8 +159,8 @@ a:active {
 }
 
 .form-row {
-    margin-bottom: 12px;
-    margin-right: 24px;
+    margin-bottom: 18px;
+    padding: 20px;
     width: 46%;
 }
 
